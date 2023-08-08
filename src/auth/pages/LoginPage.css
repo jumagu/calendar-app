@@ -1,0 +1,79 @@
+.login-container {
+  min-height: 100vh;
+}
+
+.login-container > div {
+  max-width: 900px;
+  margin: 20px 0px;
+}
+
+.login-form-1 {
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form-2 {
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #0062cc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 input {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-form-2 input:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.4);
+}
+
+.login-form-2 h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btnSubmit {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 8px 0px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.login-form-1 .btnSubmit {
+  color: #fff;
+  background-color: #0062cc;
+}
+
+.login-form-1 .btnSubmit:hover {
+  background-color: #0063cce4;
+}
+
+.login-form-1 .btnSubmit:active {
+  background-color: #0063ccd4;
+}
+
+.login-form-2 .btnSubmit {
+  color: #0062cc;
+  background-color: #fff;
+}
+
+.login-form-2 .btnSubmit:hover {
+  background-color: #ffffffe4;
+}
+
+.login-form-2 .btnSubmit:active {
+  background-color: #ffffffd4;
+}
